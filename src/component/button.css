@@ -1,0 +1,36 @@
+.plus{
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: orange;
+}
+.minus{
+    grid-column: 3;
+    grid-row: 1;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.reset{
+    font-size: 25px;
+    border-radius: 10px;
+    background-color:green;
+    padding: 30px;
+}
+.plus:active ,.minus:active{
+    background-color: pink;
+    color: blue;
+    box-shadow: inset 0px 0px 5px darkgray;
+    border: 2px solid white;
+}
+.plus:hover ,.minus:hover{
+    cursor: pointer;
+}
+.reset:hover{
+    cursor: pointer;
+}
+.reset:active{
+    background-color: violet;
+
+}

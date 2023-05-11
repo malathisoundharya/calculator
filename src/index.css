@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.item1{
+  display: grid;
+  grid-template-columns: 250px auto 250px;
+  grid-column-gap: 80px;
+  grid-template-rows: 1fr;
+}
+.count{
+  grid-column: 2;
+  grid-row: 1;
+  padding: 20px;
+  color: red;
+  font-size: 60px;
+}
